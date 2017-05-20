@@ -1,0 +1,6 @@
+
+#$ May 20, 2017
+
+Websockets are good. The system will be served on a persistent connection for the duration of the application. The user will have to be re-authenticated each time a socket connection is opened.
+
+For the sake of learning about Django channels, I will also re-implement the auth application using Django, but for now, it is enough to demonstrate that the work can be done with node. 
