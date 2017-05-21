@@ -8,6 +8,9 @@ The purpose of this file is to serve the authentication application. To do this,
 
 */
 
+// Start with:
+// file:///Users/nicholaspiano/code/odin/odin.auth/node/test/index.html
+
 const WebSocket = require('ws');
 const wss = new WebSocket.Server({port: 8080});
 
